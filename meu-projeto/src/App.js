@@ -1,11 +1,14 @@
 import './App.css'
-import Condicional from './components/condicional'
+import OutraList from './components/OutraList'
 
 function App() {
+
+  const meuItens = ['React', 'Vue', 'Angular']
+
   return (
     <div className='App'>
-      <h1>Renderizando Condicional</h1>
-      <Condicional />
+      <h1>Renderizando Listas</h1>
+      <OutraList itens={meusItens}/>
     </div>
   )
 }
